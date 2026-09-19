@@ -1,0 +1,9 @@
+.venv/
+node_modules/
+app/node_modules/
+app/.vite/
+__pycache__/
+*.pyc
+.env
+.env.*
+output/

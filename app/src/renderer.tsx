@@ -29,6 +29,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
+import { Button } from '#components/ui/button';
 
 function App() {
   return (
@@ -37,6 +38,9 @@ function App() {
       <p className="mt-2 text-slate-400">
         Electron + React + Tailwind is running.
       </p>
+      <Button className="mt-6">
+        ファイルを選択
+        </Button>
     </main>
   );
 }
